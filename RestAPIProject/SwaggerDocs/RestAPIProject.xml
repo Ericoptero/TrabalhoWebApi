@@ -25,6 +25,234 @@
             </summary>
             <param name="config"></param>
         </member>
+        <member name="T:RestAPIProject.Controllers.BaseAncestralController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Controllers.BaseAncestralController.Contexto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RestAPIProject.Controllers.BaseAncestralController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RestAPIProject.Controllers.BaseAncestralController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="T:RestAPIProject.Controllers.ContatoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RestAPIProject.Controllers.ContatoController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RestAPIProject.Controllers.ContatoController.GetAll">
+            <summary>
+            Obtem todos os registros da tabela.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a SELECT * FROM.
+            </remarks>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
+        <member name="M:RestAPIProject.Controllers.ContatoController.Get(System.Int32)">
+            <summary>
+            Obtém um registro da tabela, a partir da chave primária.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a SELECT FROM WHERE.
+            </remarks>
+            <param name="id">Chave Primária</param>
+            <response code="404">Not Found</response>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
+        <member name="M:RestAPIProject.Controllers.ContatoController.Create(RestAPIProject.Models.POCO.ContatoPOCO)">
+            <summary>
+            Cria um registro na tabela, a partir da instância que representará o registro.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a INSERT INTO.
+            </remarks>
+            <param name="poco">Conjunto de dados de Contato.</param>
+            <response code="400">Bad Request</response>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
+        <member name="M:RestAPIProject.Controllers.ContatoController.Change(RestAPIProject.Models.POCO.ContatoPOCO)">
+            <summary>
+            Altera um registro da tabela, a partir da instância que representa o registro.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a UPDATE.
+            </remarks>
+            <param name="poco">Conjunto de dados de Contato.</param>
+            <response code="400">Bad Request</response>
+            <response code="404">Not Found</response>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
+        <member name="M:RestAPIProject.Controllers.ContatoController.Delete(System.Int32)">
+            <summary>
+            Exclui um registro da tabela, a partir da chave primária.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a DELETE.
+            </remarks>
+            <param name="id">Chave primária</param>
+            <response code="404">Not Found</response>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
+        <member name="T:RestAPIProject.Controllers.PaisController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RestAPIProject.Controllers.PaisController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RestAPIProject.Controllers.PaisController.GetAll">
+            <summary>
+            Obtem todos os registros da tabela.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a SELECT * FROM.
+            </remarks>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
+        <member name="M:RestAPIProject.Controllers.PaisController.Get(System.Int32)">
+            <summary>
+            Obtém um registro da tabela, a partir da chave primária.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a SELECT FROM WHERE.
+            </remarks>
+            <param name="id">Chave Primária</param>
+            <response code="404">Not Found</response>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
+        <member name="M:RestAPIProject.Controllers.PaisController.Create(RestAPIProject.Models.POCO.PaisPOCO)">
+            <summary>
+            Cria um registro na tabela, a partir da instância que representará o registro.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a INSERT INTO.
+            </remarks>
+            <param name="poco">Conjunto de dados de Pais.</param>
+            <response code="400">Bad Request</response>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
+        <member name="M:RestAPIProject.Controllers.PaisController.Change(RestAPIProject.Models.POCO.PaisPOCO)">
+            <summary>
+            Altera um registro da tabela, a partir da instância que representa o registro.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a UPDATE.
+            </remarks>
+            <param name="poco">Conjunto de dados de Pais.</param>
+            <response code="400">Bad Request</response>
+            <response code="404">Not Found</response>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
+        <member name="M:RestAPIProject.Controllers.PaisController.Delete(System.Int32)">
+            <summary>
+            Exclui um registro da tabela, a partir da chave primária.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a DELETE.
+            </remarks>
+            <param name="id">Chave primária</param>
+            <response code="404">Not Found</response>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
+        <member name="T:RestAPIProject.Controllers.ProdutoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RestAPIProject.Controllers.ProdutoController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RestAPIProject.Controllers.ProdutoController.GetAll">
+            <summary>
+            Obtem todos os registros da tabela.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a SELECT * FROM.
+            </remarks>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
+        <member name="M:RestAPIProject.Controllers.ProdutoController.Get(System.Int32)">
+            <summary>
+            Obtém um registro da tabela, a partir da chave primária.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a SELECT FROM WHERE.
+            </remarks>
+            <param name="id">Chave Primária</param>
+            <response code="404">Not Found</response>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
+        <member name="M:RestAPIProject.Controllers.ProdutoController.Create(RestAPIProject.Models.POCO.ProdutoPOCO)">
+            <summary>
+            Cria um registro na tabela, a partir da instância que representará o registro.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a INSERT INTO.
+            </remarks>
+            <param name="poco">Conjunto de dados de Produto.</param>
+            <response code="400">Bad Request</response>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
+        <member name="M:RestAPIProject.Controllers.ProdutoController.Change(RestAPIProject.Models.POCO.ProdutoPOCO)">
+            <summary>
+            Altera um registro da tabela, a partir da instância que representa o registro.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a UPDATE.
+            </remarks>
+            <param name="poco">Conjunto de dados de Produto.</param>
+            <response code="400">Bad Request</response>
+            <response code="404">Not Found</response>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
+        <member name="M:RestAPIProject.Controllers.ProdutoController.Delete(System.Int32)">
+            <summary>
+            Exclui um registro da tabela, a partir da chave primária.
+            </summary>
+            <remarks>
+            Método da API equivalente a pesquisa do banco de dados SQL, semelhante a DELETE.
+            </remarks>
+            <param name="id">Chave primária</param>
+            <response code="404">Not Found</response>
+            <response code="500">Internal Server Error.</response>
+            <returns></returns>
+        </member>
         <member name="T:RestAPIProject.WebApiApplication">
             <summary>
             
