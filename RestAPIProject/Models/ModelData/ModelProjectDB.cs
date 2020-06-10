@@ -5,17 +5,38 @@ namespace RestAPIProject.Models.ModelData
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
 
+    /// <summary>
+    /// 
+    /// </summary>
     public partial class ModelProjectDB : DbContext
     {
+        /// <summary>
+        /// 
+        /// </summary>
         public ModelProjectDB()
             : base("name=ModelProjectDB")
         {
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public virtual DbSet<Contato> Contatos { get; set; }
-        public virtual DbSet<Pais> Paises { get; set; }
-        public virtual DbSet<Produto> Produtos { get; set; }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        public virtual DbSet<Pais> Paises { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public virtual DbSet<Produto> Produtos { get; set; }
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="modelBuilder"></param>
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Contato>()

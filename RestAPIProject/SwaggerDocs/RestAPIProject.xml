@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RestAPIProject</name>
+    </assembly>
+    <members>
+        <member name="T:RestAPIProject.SwaggerConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RestAPIProject.SwaggerConfig.Register">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RestAPIProject.WebApiConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RestAPIProject.WebApiConfig.Register(System.Web.Http.HttpConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="T:RestAPIProject.WebApiApplication">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RestAPIProject.WebApiApplication.Application_Start">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RestAPIProject.Models.ModelData.Contato">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.ModelData.Contato.IdContato">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.ModelData.Contato.Nome">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.ModelData.Contato.Fone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.ModelData.Contato.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RestAPIProject.Models.ModelData.ModelProjectDB">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RestAPIProject.Models.ModelData.ModelProjectDB.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.ModelData.ModelProjectDB.Contatos">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.ModelData.ModelProjectDB.Paises">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.ModelData.ModelProjectDB.Produtos">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RestAPIProject.Models.ModelData.ModelProjectDB.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="T:RestAPIProject.Models.ModelData.Pais">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.ModelData.Pais.IdPais">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.ModelData.Pais.Nome">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.ModelData.Pais.Abreviacao">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RestAPIProject.Models.ModelData.Produto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.ModelData.Produto.IdProduto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.ModelData.Produto.Descricao">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.ModelData.Produto.QtdEstoque">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.ModelData.Produto.Preco">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RestAPIProject.Models.POCO.ContatoPOCO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.POCO.ContatoPOCO.IdContato">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.POCO.ContatoPOCO.Nome">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.POCO.ContatoPOCO.Fone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.POCO.ContatoPOCO.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RestAPIProject.Models.POCO.PaisPOCO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.POCO.PaisPOCO.IdPais">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.POCO.PaisPOCO.Nome">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.POCO.PaisPOCO.Abreviacao">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RestAPIProject.Models.POCO.ProdutoPOCO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.POCO.ProdutoPOCO.IdProduto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.POCO.ProdutoPOCO.Descricao">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.POCO.ProdutoPOCO.QtdEstoque">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RestAPIProject.Models.POCO.ProdutoPOCO.Preco">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
